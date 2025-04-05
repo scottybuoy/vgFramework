@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    overflow: hidden;
 }
 
 #app-cont {
@@ -16,4 +17,22 @@ body {
     position: absolute;
     top: 75%;
     left: 8%;
+}
+
+#gravity-test-player {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 136, 3);
+    position: absolute;
+    /* top: 75%; */
+    left: 28%;
+}
+
+#platform {
+    width: 800px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
